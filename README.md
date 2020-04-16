@@ -3,8 +3,7 @@
 
 Written in PowerBASIC.
 
-I originally wrote this program after taking a logic class in college (the original version was written in Qbasic or something like that).  It allows you to enter
-a logical statement consisting of various symbols, and then it analyzes it and gives you the result in the form of T (for True) or F (for False).
+I originally wrote this program after taking a logic class in college (the original version was written in Qbasic or something like that).  It allows you to enter a logical statement consisting of various symbols, and then it analyzes it and gives you the result in the form of T (for True) or F (for False).
 
 The symbols consist of the following:
 
