@@ -269,7 +269,7 @@ FUNCTION ShowDIALOG_MAIN(BYVAL hParent AS DWORD) AS LONG
         "in the field:", 30, 25, 120, 10, %WS_CHILD OR %WS_VISIBLE OR _
         %SS_CENTER, %WS_EX_LEFT OR %WS_EX_LTRREADING
     CONTROL ADD LABEL,    hDlg, %IDC_LABEL_DIALOG_MAIN_02, "Legal symbols: T " + _
-        "F ( ) [ ] { } && | ~ ; =", 30, 45, 120, 10, %WS_CHILD OR _
+        "F ( ) [ ] { } && | ! ; =", 30, 45, 120, 10, %WS_CHILD OR _
         %WS_VISIBLE OR %SS_CENTER, %WS_EX_LEFT OR %WS_EX_LTRREADING
     CONTROL ADD LISTBOX,  hDlg, %IDC_LISTBOX_DIALOG_MAIN_SOLUTIONS, , 15, 75, 410, 170, _
         %WS_CHILD OR %WS_VISIBLE OR %WS_HSCROLL OR %WS_VSCROLL OR %LBS_NOSEL _
@@ -579,7 +579,7 @@ SUB Solve()
                             EXIT FOR
                         END IF
                     END IF
-                CASE "~"
+                CASE "!"
                     IF i <= LEN(Statement) - 1 THEN
                         IF INSTR("TF", MID$(Statement, i + 1, 1)) THEN
                             IF MID$(Statement, i + 1, 1) = "T" THEN
