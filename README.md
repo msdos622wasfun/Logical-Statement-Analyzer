@@ -14,7 +14,7 @@ F is for False
 {} are used for logical grouping
 & is for AND
 | is for OR
-~ is for NOT
+! is for NOT
 ; is the If-Then operator
 = is the equality operator
 
@@ -23,7 +23,7 @@ EXAMPLES:
 T|F
 This would evaluate to True (True OR False).
 
-~F
+!F
 This would evaluate to True (NOT False).
 
 F|(T&F)
@@ -40,7 +40,7 @@ unless the antecedent on the left is True and
 the consequent on the right is False, in which
 case it evaluates to False:
 
-T;[T&(~T)]
+T;[T&(!T)]
 This evaluates to False.  In the parentheses, we
 have NOT True, which is False; therefore, in the
 brackets we have True AND False, which is False;
