@@ -1,0 +1,26 @@
+PowerBASIC project
+PBWIN
+2
+SaveFile000="/W:0,0,0,0:D:\Data\Source Code\PowerBASIC\LSA-2\LSA.bas"
+SaveFile001="/A:/W:0,0,0,0:D:\Data\Source Code\PowerBASIC\LSA-2\Version_Info.inc"
+Include0="C:\Program Files (x86)\PBWin10\WinAPI"
+Include1=
+Include2=
+Include3=
+Include4=
+Include5=
+Include6=
+Include7=
+Include8=
+Include9=
+Watch="ERR",0,
+CommandLine0=""
+CommandLine1=""
+CommandLine2=""
+CommandLine3=""
+CommandLine4=""
+CommandLine5=""
+CommandLine6=""
+CommandLine7=""
+CommandLine8=""
+CommandLine9=""
